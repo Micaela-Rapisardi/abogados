@@ -270,7 +270,7 @@ h3{
     background-color: #055339;
 }
 
-/* RESPONSIVE DESIGN */
+/* multi pantalla*/
 @media (max-width: 768px) {
     .contacto {
         flex-direction: column;
@@ -291,7 +291,7 @@ h3{
     }
 
     .formulario input[type="submit"] {
-        left: 0; /* Quitamos el desplazamiento hacia la derecha */
+        left: 0; 
         margin-top: 1rem;
     }
 }
