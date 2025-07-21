@@ -1,14 +1,15 @@
-/*font-family: "Open Sans", sans-serif;*/
+/*font-family: "Playfair Display", serif;*/ /*principales
+/*font-family: "Montserrat", sans-serif; */ /*secundarios
 
 /*base */
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 16px;
     line-height: 25px; /*alto de barra de nav*/
 }
 
 header{
-    background-color: green;
+    background-color: #104434;
     padding: 15x 0;
 }
 
@@ -24,7 +25,7 @@ header h1{
 }
 
 nav{
-    background-color: #055339;
+    background-color: #104434;
     margin-bottom: 25px;
 }
 
@@ -52,7 +53,7 @@ nav ul li a:hover{
 }
 
 footer{
-    background-color: #64806c;
+    background-color: #546b62;
     clear: both;
     color: #2d3630;
     text-align: center;
@@ -61,7 +62,7 @@ footer{
 }
 
 nav ul li a.activo { /*a.activo siempre va junto sin espacio para cuando cambio de lugar la clase */
-    background-color: green; 
+    background-color: #658679; 
     font-style:normal;
     color: #2d3630;
     font-size: 20px;
@@ -76,7 +77,7 @@ nav ul li a.activo { /*a.activo siempre va junto sin espacio para cuando cambio 
 
 /*solapa home*/
 .bienvenidos {
-    background-color: rgba(193, 243, 193, 0.250);
+    background-color: #849c9c30;
     text-align: justify;
      width: 100%;
     /*padding-right: 10px;*/
@@ -89,7 +90,7 @@ nav ul li a.activo { /*a.activo siempre va junto sin espacio para cuando cambio 
 }
 
 h3{
-    color: green;
+    color: #114434;
     font-weight: 300;
 }
 
@@ -98,12 +99,12 @@ h3{
 }
 
 .card {
-      border-color: green;
+      border-color: #104434;
       transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .card:hover{
-    background-color: #e6f4ea; /* un verde claro */
+    background-color: #10443448; /* un verde claro */
     transform: translateY(-5px); /* levanta un poco la tarjeta */
 }
     
@@ -118,13 +119,13 @@ h3{
 /*inicio Nosotros*/
 
 h3{
-    color: green;
+    color:#114434;
     font-weight: 300;
 }
 
 .historia{
     font-size: 14px;
-    background-color: rgba(193, 243, 193, 0.250);
+    background-color: #849c9c30;
 }
 
 .personas {
@@ -187,12 +188,14 @@ h3{
 /*inicio novedades*/
 
 .novedades h4{
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #055339;
 }
 
 .novedades h5{
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-style: italic;
     color: #666;
