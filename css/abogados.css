@@ -53,10 +53,11 @@ nav ul li a:hover{
 }
 
 footer{
-    background-color: #546b62;
+    background-color: #104434;
     clear: both;
-    color: #2d3630;
+    color: #bacec6;
     text-align: center;
+    font-size: 14px;
     padding: 5px 0;
     margin-top: 25px;
 }
@@ -94,20 +95,26 @@ h3{
     font-weight: 300;
 }
 
-.icono {
-      font-size: 2rem;
-}
-
 .card {
       border-color: #104434;
       transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
     background-color: #10443448; /* un verde claro */
     transform: translateY(-5px); /* levanta un poco la tarjeta */
 }
-    
+
+.icono img {
+    color: #104434;
+    transition: 0.3s ease;
+}
+
+.card:hover .icono img {
+    filter: none;
+    transform: scale(1.1);
+}
+
 
 .columnas{
     display: flex;
