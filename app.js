@@ -29,7 +29,7 @@ app.use('/users', usersRouter);
 /*ejemplos de consulta*/
 // select
 
-pool.query('select * from abogados').them(function (resultados){
+pool.query('select * from abogados').then(function (resultados){
   console.log(resultados)
 });
 
